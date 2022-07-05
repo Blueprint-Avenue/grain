@@ -1,0 +1,55 @@
+body{
+    font-family: 'Shadows Into Light', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #000000;
+    color: #FAF3E3;
+    padding: 20px 50px;
+}
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: #1A4D2E;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.searchInput{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: #FAF3E3
+}
+
+
+.searchInput::placeholder{
+    color:#FAF3E3
+}
+
+.limitedOffer{
+    font-size: 20px;
+    border-bottom: 2px solid #1A4D2E;
+    cursor: pointer;
+}
+
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    font-weight: 400;
+}
